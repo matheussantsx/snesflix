@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameFlix</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="sounds.js"></script>
+</head>
+<body>
+    <h1>Olá, bem vindo a ArcadeFLIX</h1>
+    <p>Aqui você pode jogar o clássico Super Mario Bros</p>
+    <p>Diretamente da tela do seu navegador!</p>
+   
+    <div class="panel-selector" id="btn1">
+        <div class="botao-seletor">
+          <input type="checkbox" name="opcao" id="opcao1" onclick="playMusic('audio1')">
+          <audio id="audio1" src="sounds/topgear-theme.mp3"></audio>
+          <label for="opcao1">Top Gear</label>
+        </div>
+        
+        <div class="botao-seletor" id="btn2">
+          <input type="checkbox" name="opcao" id="opcao2" onclick="playMusic('audio2')"> 
+          <audio id="audio2" src="sounds/chrono-theme.mp3"></audio>
+          <label for="opcao2">Chrono Trigger</label>
+        </div>
+      
+        <div class="botao-seletor" id="btn3">
+          <input type="checkbox" name="opcao" id="opcao3" onclick="playMusic('audio3')">
+          <audio id="audio3" src="sounds/supermario-theme.mp3"></audio>
+          <label for="opcao3">Super Mario Bros</label>
+        </div>
+      
+        <div class="botao-seletor" id="btn4">
+          <input type="checkbox" name="opcao" id="opcao4" onclick="playMusic('audio4')">
+          <audio id="audio4" src="sounds/dk-theme.mp3"></audio>
+          <label for="opcao4">Donkey Kong Country</label>
+        </div>
+      
+        <div class="botao-seletor" id="btn5">
+          <input type="checkbox" name="opcao" id="opcao5" onclick="playMusic('audio5')">
+          <audio id="audio5" src="sounds/street-theme.mp3"></audio>
+          <label for="opcao5">Street Fighter</label>
+        </div>
+      </div>
+    <div class="button">
+        Jogar
+    </div>
+        
+</body>
+</html>
