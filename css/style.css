@@ -59,12 +59,18 @@ p{
    
 }
 
+
+
+
 .button:hover{
     background-color: #a2050dc3;
     color: #fff;
     transition: 0.8s;
     z-index: 1;
 }
+
+
+
 
 
     .panel-selector{
@@ -108,6 +114,6 @@ p{
     background-color: #ccc;
   }
   
- 
+/*Make a CSS for .botao-seletor when it clicked the border line will
   
   
