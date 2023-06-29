@@ -8,39 +8,54 @@
     <script src="sounds.js"></script>
 </head>
 <body>
-    <h1>Olá, bem vindo a ArcadeFLIX</h1>
-    <p>Aqui você pode jogar o clássico Super Mario Bros</p>
-    <p>Diretamente da tela do seu navegador!</p>
-   
-    <div class="panel-selector" id="bota-games">
-        <div class="botao-seletor" id="btn1" onmouseover="playMusic1('audio1')" onmouseleave="pauseMusic1('audio1')">
-          <audio  id="audio1" src="sounds/topgear-theme.mp3"></audio>
-          <label for="opcao1">Top Gear</label>
-        </div>
-        
-        <div class="botao-seletor" id="btn2" onmouseover="playMusic2('audio2')" onmouseleave="pauseMusic2('audio2')">
-          <audio id="audio2" src="sounds/chrono-theme.mp3"></audio>
-          <label for="opcao2">Chrono Trigger</label>
-        </div>
+
+
+  <p></p>
+  <h1>SnesFLIX</h1>
+  <p>Aqui você pode jogar o clássico Super Mario Bros</p>
+  <p>Diretamente da tela do seu navegador!</p>
+
+ 
+  <div class="game-select">
       
-          <div class="botao-seletor" id="btn3" onmouseover="playMusic3('audio3')" onmouseleave="pauseMusic3('audio3')">
-          <audio id="audio3" src="sounds/supermario-theme.mp3"></audio>
-          <label for="opcao3">Super Mario Bros</label>
-        </div>
-      
-        <div class="botao-seletor" id="btn4" onmouseover="playMusic4('audio4')" onmouseleave="pauseMusic4('audio1')">
-        <audio id="audio4" src="sounds/dk-theme.mp3"></audio>
-        <label for="opcao4">Donkey Kong Country</label>
-        </div>
-      
-        <div class="botao-seletor" id="btn5" onmouseover="playMusic5('audio5')" onmouseleave="pauseMusic5('audio5')">
-         <audio id="audio5" src="sounds/street-theme.mp3"></audio>
-          <label for="opcao5">Street Fighter</label>
-        </div>
+    <div class="snes-button-box1"  onmouseover="playMusic1('audio1')" onmouseleave="pauseMusic1('audio1')">
+      <audio  id="audio1" src="sounds/topgear-theme.mp3"></audio>
       </div>
-    <div class="button">
-        Jogar
+      
+      <div class="snes-button-box2" onmouseover="playMusic2('audio2')" onmouseleave="pauseMusic2('audio2')">
+      <audio id="audio2" src="sounds/chrono-theme.mp3"></audio>
+      </div>
+    
+      <div class="snes-button-box3" onmouseover="playMusic3('audio3')" onmouseleave="pauseMusic3('audio3')">
+      <audio id="audio3" src="sounds/supermario-theme.mp3"></audio>
+      </div>
+    
+      <div class="snes-button-box4"  onmouseover="playMusic4('audio4')" onmouseleave="pauseMusic4('audio1')">
+      <audio id="audio4" src="sounds/dk-theme.mp3"></audio>
+      </div>
+    
+      <div class="snes-button-box5"   onmouseover="playMusic5('audio5')" onmouseleave="pauseMusic5('audio5')">
+      <audio id="audio5" src="sounds/street-theme.mp3"></audio>
+      </div>
+    
     </div>
-        
+    
+  <div class="button">
+      Guess My Game
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>
