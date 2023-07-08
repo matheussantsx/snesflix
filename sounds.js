@@ -9,7 +9,6 @@ function pauseMusic1(){
     music.pause();
 }
 
-
 //
 
 function playMusic2() {

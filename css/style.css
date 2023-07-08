@@ -26,13 +26,6 @@ body{
 
   
 
-
-
-
-
-
-
-
 p{
     font-size: 16px;
     font-weight: 400;
@@ -63,6 +56,16 @@ h1{
   line-height: 1.1;
   margin: 0 0 20px;
   text-align: center;
+}
+
+h4{
+  font-family: 'Netflix','Times New Roman', Times, serif
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0 0 20px;
+  text-align: center;
+  display: block
 }
 
 /* make a button like a profile select from Netflix */
@@ -134,19 +137,16 @@ h1{
     
   }
   
-
   .snes-button-box1 {
-    background-image: url(../images/topgear-fita.png);
+    background-image: url(../images/topgear-tape.png);
     background-size: cover;
     width: 150px;
-    height: 100px;
+    height: 150px;
     display: inline-block;
     margin: 10px;
     border-radius: 10px;
     cursor: pointer;
-    transform: scale(0.8);
-   
-
+    
 }
 
 .snes-button-box1:hover{
@@ -156,14 +156,11 @@ transition: transform .3s;
     transform: scale(2.0);
   }
 
-
-
-
   .snes-button-box2 {
-    background-image: url(../images/chrono-fita.png);
+    background-image: url(../images/street-tape.png);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: inline-block;
     margin: 10px;
     border-radius: 10px;
@@ -181,8 +178,8 @@ transition: transform .3s;
   .snes-button-box3 {
     background-image: url(../images/mario-fita.png);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: inline-block;
     margin: 10px;
     border-radius: 10px;
@@ -196,16 +193,15 @@ transition: transform .3s;
     -webkit-transform: scale(2.0);
     transform: scale(2.0);
   }
-
+ 
   .snes-button-box4 {
-    background-image: url(../images/dk-fita.png);
+    background-image: url(../images/mariokart-tape.png);
     background-size: cover;
     width: 150px;
-    height: 100px;
+    height:150px;
     display: inline-block;
     margin: 10px;
     border-radius: 10px;
-    transform: scale(0.8);
     cursor: pointer;
     
 }
@@ -217,17 +213,14 @@ transition: transform .3s;
     transform: scale(2.0);
   }
 
-
   .snes-button-box5 {
-    background-image: url("../images/street-fita.png");
+    background-image: url(../images/chrono-tape.png);
     background-size: cover;
     width: 150px;
-    height: 100px;
+    height: 150px;
     display: inline-block;
     margin: 10px;
     border-radius: 10px;
-    cursor: pointer;
-    transform: scale(0.8);
     cursor: pointer;
     
 }
