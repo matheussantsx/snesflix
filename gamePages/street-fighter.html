@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/emulator.css">
+    <title>ArcadeFlix</title>
+</head>
+<body>
+    <div class="gameEmulator">
+        <div id="game"></div>
+      </div>
+<script type="text/javascript">
+    EJS_player = '#game';
+    EJS_gameUrl = '../roms/Street Fighter.zip'; // Url to Game rom
+    EJS_core = 'snes';
+    EJS_mouse = false; // SNES Mouse
+    EJS_multitap = false; // SNES Multitap
+</script>
+<script src="https://www.emulatorjs.com/loader.js"></script>
+
+
+<script>
+    function BackHome(url) {
+      window.location.href = url;
+    }    
+  </script>
+<div class="button" onclick= "BackHome('../index.html')">Home</div>
+</body>
+</html>

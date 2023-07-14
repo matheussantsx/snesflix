@@ -9,38 +9,48 @@
 </head>
 <body>
 
-
   <p></p>
-  <h1>SNESFLIX</h1>
+  <h1>SNESFlix</h1>
   <h4>Here you can play every classIcal game from SNES</h4>
   <p>Directly from you own Browser!</p>
   <p>Choose a favorite game below</p>
 
+<script>
+  function EmulatorPage(url) {
+    window.location.href = url;
+  }    
+</script>
+
  
   <div class="game-select">
       
-      <div class="snes-button-box1"  onmouseover="playMusic1('audio1')" onmouseleave="pauseMusic1('audio1')">
+      <div class="snes-button-box1" onclick="EmulatorPage('gamePages/top-gear.html')"  onmouseover="playMusic1('audio1')" onmouseleave="pauseMusic1('audio1')">
       <audio  id="audio1" src="sounds/topgear-theme.mp3"></audio>
       </div>
       
-      <div class="snes-button-box2"  onmouseover="playMusic1('audio2')" onmouseleave="pauseMusic1('audio1')">
-      <audio  id="audio1" src="sounds/topgear-theme.mp3"></audio>
+      <div class="snes-button-box2" onclick="EmulatorPage('gamePages/street-fighter.html')" onmouseover="playMusic2('audio2')" onmouseleave="pauseMusic2('audio2')">
+      <audio  id="audio2" src="sounds/streetfighter-theme.mp3"></audio>
       </div>
 
-      <div class="snes-button-box3"  onmouseover="playMusic1('audio3')" onmouseleave="pauseMusic1('audio1')">
-      <audio  id="audio1" src="sounds/topgear-theme.mp3"></audio>
+      <div class="snes-button-box3" onclick="EmulatorPage('gamePages/super-mario.html')"  onmouseover="playMusic3('audio3')" onmouseleave="pauseMusic3('audio3')">
+      <audio  id="audio3" src="sounds/supermario-theme.mp3"></audio>
       </div>
         
-      <div class="snes-button-box4"  onmouseover="playMusic1('audio4')" onmouseleave="pauseMusic1('audio1')">
-      <audio  id="audio1" src="sounds/topgear-theme.mp3"></audio>
+      <div class="snes-button-box4" onclick="EmulatorPage('gamePages/mario-kart.html')" onmouseover="playMusic4('audio4')" onmouseleave="pauseMusic4('audio4')">
+      <audio  id="audio4" src="sounds/mariokart-theme.mp3"></audio>
       </div>
     
-      <div class="snes-button-box5"  onmouseover="playMusic1('audio5')" onmouseleave="pauseMusic1('audio1')">
-      <audio  id="audio1" src="sounds/topgear-theme.mp3"></audio>
+      <div class="snes-button-box5" onclick="EmulatorPage('gamePages/chrono-trigger.html')" onmouseover="playMusic5('audio5')" onmouseleave="pauseMusic5('audio5')">
+      <audio  id="audio5" src="sounds/chronotrigger-theme.mp3"></audio>
       </div>
-     
-    
-    </div>
+      </div>
+  <div>
+  </div>
+
+  
+
+
+
     <p>Describe What kind of game do you wanna play.</p>
   <div class="button">
       Guess My Game

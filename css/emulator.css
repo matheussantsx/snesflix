@@ -1,0 +1,63 @@
+.gameEmulator{
+    width: 1080px;
+    height: 720px;
+    background-color: #000;
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 1;
+    
+}
+
+    
+
+    
+
+
+body{
+    background-color: rgba(43, 43, 43, 0.5);
+    background-image: url("../images/snesflix.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+
+}
+
+.button {
+    background-color: #e50914;
+    position: absolute;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 18px;
+    margin: 4px auto;
+    left: 0;
+    right: -30;
+    top: 20px;
+    cursor: pointer;
+    width: 5%;
+    text-align: left;
+    border-radius: 5px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    z-index: 1;
+    
+   
+}
+
+.button:hover{
+    background-color: #a2050dc3;
+    color: #fff;
+    transition: 0.8s;
+    z-index: 1;
+   
+}
